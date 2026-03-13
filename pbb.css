@@ -115,7 +115,7 @@ h1, h2, h3 {
     transform: translateY(-10px);
     background: var(--primary-color);
 }
-/* --- SEÇÃO DE HORÁRIOS --- */
+
 .schedule {
     padding: 80px 5%;
     background-color: #f9f9f9; 
@@ -128,13 +128,13 @@ h1, h2, h3 {
 
 .table-container {
     margin-top: 50px;
-    overflow-x: auto; /* Garante que funcione no celular */
+    overflow-x: auto;
 }
 
 .schedule-table {
     width: 100%;
     border-collapse: separate;
-    border-spacing: 0 15px; /* Cria o efeito de "cards" nas linhas */
+    border-spacing: 0 15px; 
 }
 
 .schedule-table th {
@@ -177,7 +177,7 @@ h1, h2, h3 {
     color: #000;
     text-decoration: underline;
     font-weight: 800;
-    background: var(--accent-color); /* O verde neon do design original */
+    background: var(--accent-color); 
     padding: 10px 20px;
     border-radius: 50px;
     text-decoration: none;
