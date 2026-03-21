@@ -1,3 +1,4 @@
+
 const observerOptions = {
     threshold: 0.1
 };
