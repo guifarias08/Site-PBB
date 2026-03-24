@@ -9,7 +9,34 @@ body, html {
     overflow-x: hidden; 
     position: relative;
 }
+@media (max-width: 768px) {
+    
+    nav, .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+
+    nav a, .menu a {
+        background-color: transparent !important; 
+        color: inherit; 
+        padding: 10px;
+        display: block;
+    }
+
+
+    .container-da-foto { 
+        padding: 0 !important;
+        width: 100% !important;
+    }
+
+    img {
+        width: 100% !important;
+        height: auto !important;
+        display: block;
+    }
+}
 @media (max-width: 768px) {
     
     .container, section, div, header, nav {
@@ -46,9 +73,28 @@ body, html {
         width: 100% !important;
         margin: 5px 0 !important;
         padding: 10px !important;
-        background-color: #333;
+        background-color: #ffffff;
         color: white;
         text-decoration: none;
+
+    }
+}
+@media (max-width: 768px) {
+   
+
+  
+    .container-da-foto { 
+        padding: 0 !important; 
+        width: 100% !important;
+    }
+
+  
+    .imagem-equipe {
+        width: 100% !important; 
+        height: auto !important;   
+        object-fit: cover;     
+        border-radius: 0;      
+        margin: 0 !important;    
     }
 }
 :root { 
