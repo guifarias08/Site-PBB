@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-body {
-    overflow-x: hidden;
+body, html {
     width: 100%;
+    overflow-x: hidden; 
+    position: relative;
 }
 @media (max-width: 768px) {
     
