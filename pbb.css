@@ -408,3 +408,17 @@ h1, h2, h3 {
         min-width: 400px; 
     }
 }
+html, body {
+    overflow-x: hidden; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container, section, div {
+    max-width: 100%; 
+    box-sizing: border-box; 
+}
+img, video, table {
+    max-width: 100%;
+    height: auto;
+}
