@@ -368,57 +368,55 @@ h1, h2, h3 {
 }
 
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden; 
+    position: relative;
+}
+
 @media (max-width: 768px) {
     
- 
-    html, body {
-        overflow-x: hidden; 
-        width: 100%;
-        margin: 0;
-        padding: 0;
+    
+    .container, section, footer, nav {
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+        padding: 15px !important;
+        align-items: center;
+        text-align: center;
     }
 
 
     h1 {
-        font-size: 1.8rem !important; 
-        text-align: center;
-        padding: 0 10px;
+        font-size: 1.6rem !important;
+        line-height: 1.2;
     }
 
-    
+ 
     p {
         font-size: 1rem !important;
         width: 100% !important;
-        padding: 0 20px !important; 
-        box-sizing: border-box; 
+        text-align: left;
+        margin-bottom: 15px;
     }
 
-
-    video, img {
+   
+    img, video {
         max-width: 100% !important;
         height: auto !important;
+        border-radius: 8px; 
     }
 
 
-    .tabela-container {
-        width: 100%;
-        overflow-x: auto;
+    .menu a, button {
+        width: 90%;
+        margin: 5px 0;
+        padding: 12px;
     }
-    table {
-        min-width: 400px; 
-    }
-}
-html, body {
-    overflow-x: hidden; 
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-.container, section, div {
-    max-width: 100%; 
-    box-sizing: border-box; 
-}
-img, video, table {
-    max-width: 100%;
-    height: auto;
 }
