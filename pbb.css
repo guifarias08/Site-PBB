@@ -150,21 +150,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 h1, h2, h3 {
     font-family: 'Archivo Black', sans-serif;
     text-transform: uppercase;
@@ -474,4 +459,31 @@ h1, h2, h3 {
     filter: grayscale(0%) contrast(100%);
     transform: scale(1.05); 
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+ 
+    .container, .flex-row, .menu { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+ 
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    button, .btn, .nav-link {
+        width: 90%;
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
 }
