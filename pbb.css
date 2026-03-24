@@ -13,56 +13,66 @@ body {
 
 @media (max-width: 768px) {
     
-   
-    h1 {
-        font-size: 1.6rem !important;
-        text-align: center;
-        width: 100%;
-        padding: 0 10px;
-        line-height: 1.2;
-    }
-
-    
-    nav, .menu {
-        display: flex;
-        flex-direction: row; 
-        justify-content: center;
-        gap: 15px;
-        padding: 10px 0;
-    }
-
-    nav a, .menu a {
-        background-color: transparent !important;
-        color: inherit; 
-        text-decoration: none;
-        font-size: 0.9rem;
-    }
-
-   
-    .container-da-foto { 
-        padding: 0 !important;
-        width: 100% !important;
-        background-color: #ff5722;
-    }
-
-    img, video {
-        width: 100% !important;
-        height: auto !important;
-        display: block;
-    }
-
   
-    .tabela-container {
+    html, body {
+        overflow-x: hidden;
         width: 100%;
-        overflow-x: auto;
-        padding: 0 10px;
     }
 
-    table {
-        min-width: 450px; 
+    .nav-links {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        background: transparent !important; 
+        padding: 10px 0 !important;
+    }
+
+    .nav-links li {
+        margin: 5px 0 !important;
+    }
+
+    .nav-links a {
+        background: transparent !important;
+        color: inherit !important;
+        font-size: 1.1rem !important;
+    }
+
+
+    .history-container {
+        display: flex !important;
+        flex-direction: column !important; 
+        padding: 20px !important;
+        width: 100% !important;
+    }
+
+    .history-text {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+
+
+    .history-visual, .image-frame {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        padding: 0 !important; 
+    }
+
+    .image-frame img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        display: block !important;
+        border-radius: 0 !important; 
+    }
+
+
+    h1, .hero-text h1 {
+        font-size: 1.8rem !important;
+        text-align: center !important;
+        padding: 0 10px !important;
     }
 }
-
 @media (max-width: 768px) {
  
   
