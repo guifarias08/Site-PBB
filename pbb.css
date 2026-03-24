@@ -370,60 +370,41 @@ h1, h2, h3 {
 
 @media (max-width: 768px) {
     
-   
+ 
     html, body {
-        overflow-x: hidden;
+        overflow-x: hidden; 
         width: 100%;
         margin: 0;
         padding: 0;
     }
 
-    h1, .titulo-principal {
+
+    h1 {
         font-size: 1.8rem !important; 
-        word-wrap: break-word;
         text-align: center;
         padding: 0 10px;
     }
 
     
-    p, .texto-jornada {
+    p {
         font-size: 1rem !important;
         width: 100% !important;
         padding: 0 20px !important; 
-        box-sizing: border-box;
-        text-align: justify;
+        box-sizing: border-box; 
     }
 
-    /* Ajuste para o Vídeo */
-    video {
-        width: 100% !important;
+
+    video, img {
+        max-width: 100% !important;
         height: auto !important;
     }
 
-    
+
     .tabela-container {
         width: 100%;
-        overflow-x: auto; 
-        margin: 20px 0;
+        overflow-x: auto;
     }
-    
     table {
-        width: 100%;
         min-width: 400px; 
     }
-
-    .categorias-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .card-categoria {
-        width: 90% !important;
-        margin-bottom: 15px;
-    }
-}
-
-.tabela-container {
-    overflow-x: auto;
 }
