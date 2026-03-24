@@ -9,44 +9,46 @@ body, html {
     overflow-x: hidden; 
     position: relative;
 }
+
 @media (max-width: 768px) {
     
-    
-    .container, section, footer, nav {
-        display: flex;
-        flex-direction: column;
+    .container, section, div, header, nav {
+        display: flex !important;
+        flex-direction: column !important; 
         width: 100% !important;
-        padding: 15px !important;
-        align-items: center;
-        text-align: center;
+        padding: 10px !important;
+        text-align: center !important;
     }
 
 
     h1 {
-        font-size: 1.6rem !important;
-        line-height: 1.2;
+        font-size: 1.5rem !important;
+        margin-bottom: 15px !important;
     }
 
- 
+
+    img, video {
+        width: 100% !important;
+        height: auto !important;
+        margin: 10px 0 !important;
+    }
+
+
     p {
         font-size: 1rem !important;
+        line-height: 1.6 !important;
+        text-align: left !important; 
+    }
+
+
+    nav a, .menu a {
+        display: block !important;
         width: 100% !important;
-        text-align: left;
-        margin-bottom: 15px;
-    }
-
-   
-    img, video {
-        max-width: 100% !important;
-        height: auto !important;
-        border-radius: 8px; 
-    }
-
-
-    .menu a, button {
-        width: 90%;
-        margin: 5px 0;
-        padding: 12px;
+        margin: 5px 0 !important;
+        padding: 10px !important;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
     }
 }
 :root { 
