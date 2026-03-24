@@ -1,59 +1,78 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body, html {
+body {
     width: 100%;
-    overflow-x: hidden; 
-    position: relative;
+    overflow-x: hidden;
 }
+
+
 @media (max-width: 768px) {
+    
+   
+    h1 {
+        font-size: 1.6rem !important;
+        text-align: center;
+        width: 100%;
+        padding: 0 10px;
+        line-height: 1.2;
+    }
+
     
     nav, .menu {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row; 
+        justify-content: center;
+        gap: 15px;
+        padding: 10px 0;
     }
-
 
     nav a, .menu a {
-        background-color: transparent !important; 
+        background-color: transparent !important;
         color: inherit; 
-        padding: 10px;
-        display: block;
+        text-decoration: none;
+        font-size: 0.9rem;
     }
 
-
+   
     .container-da-foto { 
         padding: 0 !important;
         width: 100% !important;
+        background-color: #ff5722;
     }
 
-    img {
+    img, video {
         width: 100% !important;
         height: auto !important;
         display: block;
     }
+
+  
+    .tabela-container {
+        width: 100%;
+        overflow-x: auto;
+        padding: 0 10px;
+    }
+
+    table {
+        min-width: 450px; 
+    }
 }
 
 @media (max-width: 768px) {
-   
-
+ 
   
-    .container-da-foto { 
-        padding: 0 !important; 
-        width: 100% !important;
-    }
-
-  
-    .imagem-equipe {
-        width: 100% !important; 
-        height: auto !important;   
-        object-fit: cover;     
-        border-radius: 0;      
-        margin: 0 !important;    
+    .foto-jornada {
+        display: block !important; 
+        width: 100% !important;     
+        height: auto !important;    
+        max-width: 100% !important; 
+        border-radius: 8px;       
+        margin-bottom: 15px;      
     }
 }
 :root { 
