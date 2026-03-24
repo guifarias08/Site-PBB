@@ -487,3 +487,6 @@ h1, h2, h3 {
         font-size: 1.8rem;
     }
 }
+.tabela-container {
+    overflow-x: auto;
+}
