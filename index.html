@@ -1,148 +1,307 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="PBB - Projeto Beberibe Basketball. Formando atletas e cidadãos através do basquete em Beberibe. Sub-15, Sub-17 e Adulto.">
-    <meta name="keywords" content="basquete Beberibe, PBB, basketball, treinos basquete, projeto social basquete">
-    <meta property="og:title" content="PBB - Beberibe Basketball">
-    <meta property="og:description" content="A prática leva à permanência. Formando atletas e cidadãos.">
-    <meta property="og:image" content="images pbb.png/logo pbb.png">
+    <meta name="theme-color" content="#080b11">
+    <meta name="description" content="Projeto Beberibe Basketball: formação esportiva, disciplina e comunidade por meio do basquete em Beberibe, Ceará.">
+    <meta name="keywords" content="basquete Beberibe, PBB, Beberibe Basketball, treino de basquete, projeto esportivo">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="PBB — Projeto Beberibe Basketball">
+    <meta property="og:description" content="A prática leva à permanência. Formação esportiva e humana dentro e fora da quadra.">
+    <meta property="og:image" content="https://beberibebasketball.com/images%20pbb.png/logo%20pbb.png">
     <meta property="og:url" content="https://beberibebasketball.com">
     <meta name="twitter:card" content="summary_large_image">
-    <title>PBB - Beberibe Basketball | A Prática Leva à Permanência</title>
+    <meta name="twitter:title" content="PBB — Projeto Beberibe Basketball">
+    <meta name="twitter:description" content="A prática leva à permanência. Formação esportiva e humana dentro e fora da quadra.">
+    <meta name="twitter:image" content="https://beberibebasketball.com/images%20pbb.png/logo%20pbb.png">
+
+    <title>PBB — Projeto Beberibe Basketball</title>
+
+    <link rel="canonical" href="https://beberibebasketball.com">
     <link rel="icon" href="images pbb.png/logo pbb.png" type="image/png">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="pbb.css">
-
 </head>
-<body>
 
-    <header class="hero">
-        <video autoplay muted loop playsinline class="video-bg">
+<body>
+    <a href="#main-content" class="skip-link">Pular para o conteúdo</a>
+
+    <header class="hero" id="inicio">
+        <video class="video-bg" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
             <source src="video- pbb.mp4/video pbb.mp4" type="video/mp4">
         </video>
-        <div class="overlay"></div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-texture" aria-hidden="true"></div>
 
-        <nav class="navbar" role="navigation" aria-label="Navegação principal">
-            <a href="#main-content" class="skip-link">Pular para conteúdo</a>
-            <div class="logo">PBB<span>.</span></div>
-            <ul class="nav-links">
-                <li><a href="#historia">História</a></li>
+        <nav class="navbar" aria-label="Navegação principal">
+            <a class="brand" href="#inicio" aria-label="PBB — início">
+                <span class="brand-mark">PBB<span>.</span></span>
+                <span class="brand-name">Beberibe<br>Basketball</span>
+            </a>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#historia">Nossa história</a></li>
                 <li><a href="#categorias">Categorias</a></li>
                 <li><a href="#treinos">Treinos</a></li>
+                <li class="nav-cta-item">
+                    <a class="nav-cta" href="https://www.instagram.com/beberibebasketball/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a>
+                </li>
             </ul>
-            <button class="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links">
+
+            <button class="hamburger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
         </nav>
 
-
         <div class="hero-content">
-            <img src="images pbb.png/logo pbb.png" alt="Logo PBB - Beberibe Basketball" class="hero-logo-main" loading="lazy">
+            <div class="hero-copy">
+                <p class="eyebrow hero-eyebrow"><span></span> Projeto Beberibe Basketball</p>
+                <h1>A prática leva à <span>permanência.</span></h1>
+                <p class="hero-description">Formação esportiva e humana para quem acredita que a quadra pode mudar trajetórias.</p>
 
-            <div class="hero-text-center">
-                <h1>A PRÁTICA LEVA À <br><span class="outline">PERMANÊNCIA</span></h1>
-                <p>Formando atletas e cidadãos através do basquete em Beberibe.</p>
-                <a href="#historia" class="btn-main">Conheça o Projeto</a>
-            </div>
-        </div>
-    </header>
-
-    <section class="history" id="historia">
-        <div class="history-container">
-            <div class="history-text">
-                <span class="tag-label">Fundador: Matheus Fera Martins</span>
-                <h2>Nossa <span>Jornada</span></h2>
-                <p>“A ideia de fundar um projeto de basquete surgiu da seguinte forma: em 2012, os treinos em Beberibe foram encerrados, e muitos atletas acabaram parando de jogar ou passaram a participar apenas de jogos informais (rachas). Como eu não queria me limitar a isso, busquei oportunidades em outros municípios.
-                Foi então que tive a chance de fazer um teste em um clube de Fortaleza, o Performa, do professor Dinei Souza. Lá, permaneci por dois anos, treinando e jogando. No entanto, sofri uma lesão muito séria no joelho, o que me obrigou a interromper os treinos em Fortaleza e permanecer apenas em Beberibe.
-                Como forma de continuar conectado ao esporte e compartilhar um pouco da experiência que adquiri ao longo desse período, decidi formar uma equipe de basquete."</p>
-            </div>
-            <div class="history-visual">
-                <div class="image-frame">
-                    <img src="images pbb.png/nossa jornada.png" alt="Nossa Jornada PBB" loading="lazy">
+                <div class="hero-actions">
+                    <a href="#historia" class="button button-primary">Conheça o projeto <span aria-hidden="true">↓</span></a>
+                    <a href="#treinos" class="button button-ghost">Ver horários</a>
                 </div>
             </div>
 
+            <div class="hero-emblem" aria-label="Escudo do Projeto Beberibe Basketball">
+                <div class="emblem-glow" aria-hidden="true"></div>
+                <img src="images pbb.png/logo pbb.png" alt="Escudo PBB — Projeto Beberibe Basketball" width="513" height="486" fetchpriority="high">
+                <p>Beberibe <span>•</span> Ceará</p>
+            </div>
         </div>
-    </section>
+
+        <div class="hero-bottom">
+            <p class="hero-signature">Basquete que forma.<br>Comunidade que permanece.</p>
+            <div class="hero-categories" aria-label="Categorias atendidas">
+                <span>Sub-15</span>
+                <span>Sub-17</span>
+                <span>Adulto</span>
+            </div>
+            <a class="scroll-cue" href="#historia" aria-label="Rolar para nossa história">
+                <span>Role para descobrir</span>
+                <i aria-hidden="true"></i>
+            </a>
+        </div>
+    </header>
 
     <main id="main-content">
-    <section class="categories" id="categorias">
+        <section class="history" id="historia" aria-labelledby="history-title">
+            <div class="section-shell history-grid">
+                <div class="history-visual reveal">
+                    <div class="image-frame">
+                        <img src="images pbb.png/nossa jornada.png" alt="Equipe do PBB celebrando uma conquista em quadra" width="1080" height="1070" loading="lazy">
+                    </div>
+                    <div class="image-caption">
+                        <span class="caption-number">01</span>
+                        <p>Disciplina, pertencimento e novas possibilidades por meio do esporte.</p>
+                    </div>
+                </div>
 
-        <div class="section-header">
-            <h2>Nossas Categorias</h2>
-        </div>
-        <div class="card-grid">
-            <div class="card">
-                <div class="card-icon">🏀</div>
-                <h3>Sub-15</h3>
-                <p>Fundamentos básicos para quem está começando no esporte.</p>
-            </div>
-            <div class="card">
-                <div class="card-icon">🔥</div>
-                <h3>Sub-17</h3>
-                <p>Foco em tática avançada e preparação para competições.</p>
-            </div>
-            <div class="card">
-                <div class="card-icon">🏆</div>
-                <h3>Adulto</h3>
-                <p>Jogo coletivo e alto rendimento para veteranos.</p>
-            </div>
-        </div>
-    </section>
+                <div class="history-copy reveal">
+                    <p class="eyebrow"><span></span> Nossa jornada</p>
+                    <h2 id="history-title">Quando o jogo parou, nasceu um <em>propósito.</em></h2>
 
-    <section class="schedule" id="treinos">
-        <div class="section-header">
-            <h2>Horários de Treino</h2>
-        </div>
-        <div class="table-container">
-            <table class="schedule-table">
-                <thead>
-                    <tr>
-                        <th>Categoria</th>
-                        <th>Dias</th>
-                        <th>Horário</th>
-                        <th>Local</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td data-label="Categoria" class="cat-name">Base (Sub-15/17)</td>
-                        <td data-label="Dias">Segunda e Quinta</td>
-                        <td data-label="Horário">18:00 - 21:00</td>
-                        <td data-label="Local">ABC - Luiza Faco</td>
-                    </tr>
-                    <tr>
-                        <td data-label="Categoria" class="cat-name">Adulto</td>
-                        <td data-label="Dias">Terça-feira</td>
-                        <td data-label="Horário">19:00 - 21:00</td>
-                        <td data-label="Local">Quadra da COAHB</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="cta-footer">
-            <a href="https://www.instagram.com/beberibebasketball/" target="_blank" class="wa-link" rel="noopener">Siga no Instagram</a>
-        </div>
-    </section>
+                    <div class="history-story">
+                        <p>Em 2012, os treinos de basquete em Beberibe foram encerrados. Muitos atletas deixaram o esporte ou passaram a jogar apenas de forma informal. Matheus Fera Martins decidiu buscar outro caminho.</p>
+                        <p>Depois de treinar e competir por dois anos no Performa, em Fortaleza, uma lesão séria no joelho o trouxe de volta. A vontade de continuar conectado ao basquete se transformou em algo maior: compartilhar experiência e manter o esporte vivo em Beberibe.</p>
+                    </div>
 
-    <footer>
-        <div class="footer-content">
-            <h3>Entre em Contato</h3>
-            <p>Fundador: Matheus Fera Martins<br>Beberibe - CE</p>
-            <div class="social-links">
-                <a href="https://www.instagram.com/beberibebasketball/" aria-label="Instagram PBB" target="_blank" rel="noopener">📱</a>
+                    <blockquote>
+                        <p>“Decidi formar uma equipe de basquete.”</p>
+                        <footer>Matheus Fera Martins <span>Fundador do PBB</span></footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section class="purpose" aria-labelledby="purpose-title">
+            <div class="section-shell">
+                <div class="section-heading reveal">
+                    <div>
+                        <p class="eyebrow eyebrow-dark"><span></span> Muito além da quadra</p>
+                        <h2 id="purpose-title">O esporte como ponto de partida.</h2>
+                    </div>
+                    <p>Treinamos fundamentos, construímos vínculos e criamos um ambiente onde cada atleta pode evoluir com responsabilidade.</p>
+                </div>
+
+                <div class="principles">
+                    <article class="principle reveal">
+                        <span class="principle-number">01</span>
+                        <div>
+                            <h3>Formação</h3>
+                            <p>Fundamentos técnicos e valores que acompanham o atleta dentro e fora da quadra.</p>
+                        </div>
+                    </article>
+                    <article class="principle reveal">
+                        <span class="principle-number">02</span>
+                        <div>
+                            <h3>Disciplina</h3>
+                            <p>Compromisso com o treino, com a equipe e com a própria evolução.</p>
+                        </div>
+                    </article>
+                    <article class="principle reveal">
+                        <span class="principle-number">03</span>
+                        <div>
+                            <h3>Permanência</h3>
+                            <p>Um projeto feito para manter o basquete vivo e acessível em Beberibe.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories" id="categorias" aria-labelledby="categories-title">
+            <div class="section-shell">
+                <div class="section-heading section-heading-light reveal">
+                    <div>
+                        <p class="eyebrow"><span></span> Categorias</p>
+                        <h2 id="categories-title">Um time para cada fase da jornada.</h2>
+                    </div>
+                    <p>Da iniciação ao jogo adulto, cada categoria tem espaço para aprender, competir e pertencer.</p>
+                </div>
+
+                <div class="category-grid">
+                    <article class="category-card reveal">
+                        <div class="card-top">
+                            <span class="card-index">01</span>
+                            <span class="card-tag">Base</span>
+                        </div>
+                        <div class="card-copy">
+                            <h3>Sub-15</h3>
+                            <p>Primeiros fundamentos, leitura de jogo e confiança para crescer no esporte.</p>
+                        </div>
+                        <span class="card-line" aria-hidden="true"></span>
+                    </article>
+
+                    <article class="category-card featured reveal">
+                        <div class="card-top">
+                            <span class="card-index">02</span>
+                            <span class="card-tag">Evolução</span>
+                        </div>
+                        <div class="card-copy">
+                            <h3>Sub-17</h3>
+                            <p>Desenvolvimento tático, intensidade e preparação para novos desafios.</p>
+                        </div>
+                        <span class="card-line" aria-hidden="true"></span>
+                    </article>
+
+                    <article class="category-card reveal">
+                        <div class="card-top">
+                            <span class="card-index">03</span>
+                            <span class="card-tag">Continuidade</span>
+                        </div>
+                        <div class="card-copy">
+                            <h3>Adulto</h3>
+                            <p>Jogo coletivo, experiência e competitividade para quem segue em quadra.</p>
+                        </div>
+                        <span class="card-line" aria-hidden="true"></span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="schedule" id="treinos" aria-labelledby="schedule-title">
+            <div class="section-shell schedule-grid">
+                <div class="schedule-intro reveal">
+                    <p class="eyebrow eyebrow-dark"><span></span> Agenda semanal</p>
+                    <h2 id="schedule-title">Hora de entrar em quadra.</h2>
+                    <p>Confira os treinos e acompanhe o Instagram do projeto para avisos, convocações e novidades.</p>
+                    <a href="https://www.instagram.com/beberibebasketball/" target="_blank" rel="noopener noreferrer" class="text-link">Acompanhar o PBB <span aria-hidden="true">↗</span></a>
+                </div>
+
+                <div class="schedule-list reveal" aria-label="Horários de treino">
+                    <article class="schedule-item">
+                        <div class="schedule-category">
+                            <span>01</span>
+                            <div>
+                                <p>Base</p>
+                                <h3>Sub-15 e Sub-17</h3>
+                            </div>
+                        </div>
+                        <dl>
+                            <div>
+                                <dt>Dias</dt>
+                                <dd>Segunda e quinta</dd>
+                            </div>
+                            <div>
+                                <dt>Horário</dt>
+                                <dd>18h às 21h</dd>
+                            </div>
+                            <div>
+                                <dt>Local</dt>
+                                <dd>ABC — Luiza Facó</dd>
+                            </div>
+                        </dl>
+                    </article>
+
+                    <article class="schedule-item">
+                        <div class="schedule-category">
+                            <span>02</span>
+                            <div>
+                                <p>Continuidade</p>
+                                <h3>Adulto</h3>
+                            </div>
+                        </div>
+                        <dl>
+                            <div>
+                                <dt>Dia</dt>
+                                <dd>Terça-feira</dd>
+                            </div>
+                            <div>
+                                <dt>Horário</dt>
+                                <dd>19h às 21h</dd>
+                            </div>
+                            <div>
+                                <dt>Local</dt>
+                                <dd>Quadra da COHAB</dd>
+                            </div>
+                        </dl>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="final-cta" aria-labelledby="cta-title">
+            <div class="final-cta-orbit" aria-hidden="true"></div>
+            <div class="section-shell final-cta-content reveal">
+                <p class="eyebrow"><span></span> Faça parte</p>
+                <h2 id="cta-title">A próxima história pode começar no próximo treino.</h2>
+                <a href="https://www.instagram.com/beberibebasketball/" target="_blank" rel="noopener noreferrer" class="button button-light">Falar com o PBB <span aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="section-shell footer-main">
+            <a class="brand footer-brand" href="#inicio" aria-label="PBB — voltar ao início">
+                <span class="brand-mark">PBB<span>.</span></span>
+                <span class="brand-name">Beberibe<br>Basketball</span>
+            </a>
+
+            <p>Basquete, formação e comunidade.<br>Beberibe, Ceará.</p>
+
+            <div class="footer-links">
+                <a href="#historia">História</a>
+                <a href="#categorias">Categorias</a>
+                <a href="#treinos">Treinos</a>
+                <a href="https://www.instagram.com/beberibebasketball/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
             </div>
         </div>
-        <div class="footer-bottom">
-            &copy; 2026 PBB - Beberibe Basketball. Todos os direitos reservados.
+        <div class="section-shell footer-bottom">
+            <p>© 2026 Projeto Beberibe Basketball.</p>
+            <p>Fundado por Matheus Fera Martins.</p>
         </div>
     </footer>
 
     <script src="pbb.js"></script>
 </body>
 </html>
-
