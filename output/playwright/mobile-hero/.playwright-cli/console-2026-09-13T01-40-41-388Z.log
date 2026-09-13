@@ -1,0 +1,1 @@
+[  132594ms] [WARNING] [JavaScript Warning: "Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content." {file: "resource://gre/actors/PictureInPictureChild.sys.mjs" line: 2013}] @ resource://gre/actors/PictureInPictureChild.sys.mjs:2013

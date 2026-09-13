@@ -1,0 +1,199 @@
+- generic [active] [ref=e1]:
+  - link "Pular para o conteúdo" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - navigation "Navegação principal" [ref=e7]:
+      - link "PBB — início" [ref=e8] [cursor=pointer]:
+        - /url: "#inicio"
+        - generic [ref=e9]: PBB.
+        - generic [ref=e10]: BeberibeBasketball
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "Nossa história" [ref=e13] [cursor=pointer]:
+            - /url: "#historia"
+        - listitem [ref=e14]:
+          - link "Categorias" [ref=e15] [cursor=pointer]:
+            - /url: "#categorias"
+        - listitem [ref=e16]:
+          - link "Treinos" [ref=e17] [cursor=pointer]:
+            - /url: "#treinos"
+        - listitem [ref=e18]:
+          - link "Instagram" [ref=e19] [cursor=pointer]:
+            - /url: https://www.instagram.com/beberibebasketball/
+            - text: Instagram
+            - generic [aria-hidden] [ref=e20]: ↗
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: Projeto Beberibe Basketball
+        - heading "A prática leva à permanência." [level=1] [ref=e25]
+        - paragraph [ref=e26]: Formação esportiva e humana para quem acredita que a quadra pode mudar trajetórias.
+        - generic [ref=e27]:
+          - link "Conheça o projeto" [ref=e28] [cursor=pointer]:
+            - /url: "#historia"
+            - text: Conheça o projeto
+            - generic [aria-hidden] [ref=e29]: ↓
+          - link "Ver horários" [ref=e30] [cursor=pointer]:
+            - /url: "#treinos"
+      - generic "Escudo do Projeto Beberibe Basketball" [ref=e31]:
+        - img "Escudo PBB — Projeto Beberibe Basketball" [ref=e33]
+        - paragraph [ref=e34]: Beberibe • Ceará
+    - generic [ref=e35]:
+      - paragraph [ref=e36]: Basquete que forma.Comunidade que permanece.
+      - generic "Categorias atendidas" [ref=e37]:
+        - generic [ref=e38]: Sub-15
+        - generic [ref=e39]: Sub-17
+        - generic [ref=e40]: Adulto
+      - link "Rolar para nossa história" [ref=e41] [cursor=pointer]:
+        - /url: "#historia"
+        - generic [ref=e42]: Role para descobrir
+  - main [ref=e44]:
+    - region [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - button "Ampliar foto da equipe do PBB" [ref=e48]:
+            - generic [ref=e49]:
+              - img "Equipe do PBB celebrando uma conquista em quadra" [ref=e50]
+              - generic [aria-hidden] [ref=e51]:
+                - text: Ver foto completa
+                - strong [ref=e52]: ↗
+              - generic [aria-hidden] [ref=e53]: 01 / 01
+          - generic [ref=e54]:
+            - generic [ref=e55]: "01"
+            - paragraph [ref=e56]:
+              - text: Disciplina, pertencimento e novas possibilidades por meio do esporte.
+              - strong [ref=e57]: Toque na foto para ampliar.
+        - generic [ref=e58]:
+          - paragraph [ref=e59]: Nossa jornada
+          - heading [level=2] [ref=e61]:
+            - text: Quando o jogo parou, nasceu um
+            - emphasis [ref=e62]: propósito.
+          - generic [ref=e63]:
+            - paragraph [ref=e64]: Em 2012, os treinos de basquete em Beberibe foram encerrados. Muitos atletas deixaram o esporte ou passaram a jogar apenas de forma informal. Matheus Fera Martins decidiu buscar outro caminho.
+            - paragraph [ref=e65]: "Depois de treinar e competir por dois anos no Performa, em Fortaleza, uma lesão séria no joelho o trouxe de volta. A vontade de continuar conectado ao basquete se transformou em algo maior: compartilhar experiência e manter o esporte vivo em Beberibe."
+          - blockquote [ref=e66]:
+            - paragraph [ref=e67]: “Decidi formar uma equipe de basquete.”
+            - generic [ref=e68]:
+              - text: Matheus Fera Martins
+              - generic [ref=e69]: Fundador do PBB
+    - region [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - paragraph [ref=e74]: Muito além da quadra
+            - heading "O esporte como ponto de partida." [level=2] [ref=e76]
+          - paragraph [ref=e77]: Treinamos fundamentos, construímos vínculos e criamos um ambiente onde cada atleta pode evoluir com responsabilidade.
+        - generic [ref=e78]:
+          - article [ref=e79]:
+            - generic [ref=e80]: "01"
+            - generic [ref=e81]:
+              - heading "Formação" [level=3] [ref=e82]
+              - paragraph [ref=e83]: Fundamentos técnicos e valores que acompanham o atleta dentro e fora da quadra.
+          - article [ref=e84]:
+            - generic [ref=e85]: "02"
+            - generic [ref=e86]:
+              - heading "Disciplina" [level=3] [ref=e87]
+              - paragraph [ref=e88]: Compromisso com o treino, com a equipe e com a própria evolução.
+          - article [ref=e89]:
+            - generic [ref=e90]: "03"
+            - generic [ref=e91]:
+              - heading "Permanência" [level=3] [ref=e92]
+              - paragraph [ref=e93]: Um projeto feito para manter o basquete vivo e acessível em Beberibe.
+    - region [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - paragraph [ref=e98]: Categorias
+            - heading "Um time para cada fase da jornada." [level=2] [ref=e100]
+          - paragraph [ref=e101]: Da iniciação ao jogo adulto, cada categoria tem espaço para aprender, competir e pertencer.
+        - generic [ref=e102]:
+          - article [ref=e103]:
+            - generic [ref=e104]:
+              - generic [ref=e105]: "01"
+              - generic [ref=e106]: Base
+            - generic [ref=e107]:
+              - heading "Sub-15" [level=3] [ref=e108]
+              - paragraph [ref=e109]: Primeiros fundamentos, leitura de jogo e confiança para crescer no esporte.
+          - article [ref=e110]:
+            - generic [ref=e111]:
+              - generic [ref=e112]: "02"
+              - generic [ref=e113]: Evolução
+            - generic [ref=e114]:
+              - heading "Sub-17" [level=3] [ref=e115]
+              - paragraph [ref=e116]: Desenvolvimento tático, intensidade e preparação para novos desafios.
+          - article [ref=e117]:
+            - generic [ref=e118]:
+              - generic [ref=e119]: "03"
+              - generic [ref=e120]: Continuidade
+            - generic [ref=e121]:
+              - heading "Adulto" [level=3] [ref=e122]
+              - paragraph [ref=e123]: Jogo coletivo, experiência e competitividade para quem segue em quadra.
+    - region [ref=e124]:
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - paragraph [ref=e127]: Agenda semanal
+          - heading "Hora de entrar em quadra." [level=2] [ref=e129]
+          - paragraph [ref=e130]: Confira os treinos e acompanhe o Instagram do projeto para avisos, convocações e novidades.
+          - link "Acompanhar o PBB" [ref=e131] [cursor=pointer]:
+            - /url: https://www.instagram.com/beberibebasketball/
+            - text: Acompanhar o PBB
+            - generic [aria-hidden] [ref=e132]: ↗
+        - generic "Horários de treino" [ref=e133]:
+          - article [ref=e134]:
+            - generic [ref=e135]:
+              - generic [ref=e136]: "01"
+              - generic [ref=e137]:
+                - paragraph [ref=e138]: Base
+                - heading "Sub-15 e Sub-17" [level=3] [ref=e139]
+            - generic [ref=e140]:
+              - generic [ref=e141]:
+                - term [ref=e142]: Dias
+                - definition [ref=e143]: Segunda e quinta
+              - generic [ref=e144]:
+                - term [ref=e145]: Horário
+                - definition [ref=e146]: 18h às 21h
+              - generic [ref=e147]:
+                - term [ref=e148]: Local
+                - definition [ref=e149]: ABC — Luiza Facó
+          - article [ref=e150]:
+            - generic [ref=e151]:
+              - generic [ref=e152]: "02"
+              - generic [ref=e153]:
+                - paragraph [ref=e154]: Continuidade
+                - heading "Adulto" [level=3] [ref=e155]
+            - generic [ref=e156]:
+              - generic [ref=e157]:
+                - term [ref=e158]: Dia
+                - definition [ref=e159]: Terça-feira
+              - generic [ref=e160]:
+                - term [ref=e161]: Horário
+                - definition [ref=e162]: 19h às 21h
+              - generic [ref=e163]:
+                - term [ref=e164]: Local
+                - definition [ref=e165]: Quadra da COHAB
+    - region [ref=e166]:
+      - generic [ref=e168]:
+        - paragraph [ref=e169]: Faça parte
+        - heading "A próxima história pode começar no próximo treino." [level=2] [ref=e171]
+        - link "Falar com o PBB" [ref=e172] [cursor=pointer]:
+          - /url: https://www.instagram.com/beberibebasketball/
+          - text: Falar com o PBB
+          - generic [aria-hidden] [ref=e173]: ↗
+  - contentinfo [ref=e174]:
+    - generic [ref=e175]:
+      - link "PBB — voltar ao início" [ref=e176] [cursor=pointer]:
+        - /url: "#inicio"
+        - generic [ref=e177]: PBB.
+        - generic [ref=e178]: BeberibeBasketball
+      - paragraph [ref=e179]: Basquete, formação e comunidade.Beberibe, Ceará.
+      - generic [ref=e180]:
+        - link "História" [ref=e181] [cursor=pointer]:
+          - /url: "#historia"
+        - link "Categorias" [ref=e182] [cursor=pointer]:
+          - /url: "#categorias"
+        - link "Treinos" [ref=e183] [cursor=pointer]:
+          - /url: "#treinos"
+        - link "Instagram ↗" [ref=e184] [cursor=pointer]:
+          - /url: https://www.instagram.com/beberibebasketball/
+    - generic [ref=e185]:
+      - paragraph [ref=e186]: © 2026 Projeto Beberibe Basketball.
+      - paragraph [ref=e187]: Fundado por Matheus Fera Martins.
