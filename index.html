@@ -25,7 +25,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="pbb.css">
+    <link rel="stylesheet" href="pbb.css?v=20260912-7">
 </head>
 
 <body>
@@ -97,12 +97,16 @@
         <section class="history" id="historia" aria-labelledby="history-title">
             <div class="section-shell history-grid">
                 <div class="history-visual reveal">
-                    <div class="image-frame">
-                        <img src="images pbb.png/nossa jornada.png" alt="Equipe do PBB celebrando uma conquista em quadra" width="1080" height="1070" loading="lazy">
-                    </div>
+                    <button class="history-photo" type="button" aria-label="Ampliar foto da equipe do PBB" aria-haspopup="dialog">
+                        <span class="image-frame">
+                            <img src="images pbb.png/nossa jornada.png" alt="Equipe do PBB celebrando uma conquista em quadra" width="1080" height="1070" loading="lazy">
+                            <span class="photo-action" aria-hidden="true">Ver foto completa <strong>↗</strong></span>
+                            <span class="photo-counter" aria-hidden="true">01 / 01</span>
+                        </span>
+                    </button>
                     <div class="image-caption">
                         <span class="caption-number">01</span>
-                        <p>Disciplina, pertencimento e novas possibilidades por meio do esporte.</p>
+                        <p>Disciplina, pertencimento e novas possibilidades por meio do esporte. <strong>Toque na foto para ampliar.</strong></p>
                     </div>
                 </div>
 
@@ -280,6 +284,20 @@
         </section>
     </main>
 
+    <dialog class="photo-dialog" aria-labelledby="photo-dialog-title">
+        <div class="photo-dialog-shell">
+            <div class="photo-dialog-header">
+                <div>
+                    <span>Conquista PBB</span>
+                    <p id="photo-dialog-title">Nossa jornada em quadra</p>
+                </div>
+                <button class="photo-dialog-close" type="button" aria-label="Fechar foto ampliada">×</button>
+            </div>
+            <img src="images pbb.png/nossa jornada.png" alt="Equipe completa do PBB celebrando uma conquista em quadra" width="1080" height="1070">
+            <p class="photo-dialog-caption">Projeto Beberibe Basketball · Beberibe, Ceará</p>
+        </div>
+    </dialog>
+
     <footer class="site-footer">
         <div class="section-shell footer-main">
             <a class="brand footer-brand" href="#inicio" aria-label="PBB — voltar ao início">
@@ -302,6 +320,6 @@
         </div>
     </footer>
 
-    <script src="pbb.js"></script>
+    <script src="pbb.js?v=20260912-7"></script>
 </body>
 </html>

@@ -40,6 +40,8 @@ O refinamento visual adiciona uma hierarquia tipográfica mais forte, melhor con
 ## Comportamentos e acessibilidade
 
 - Menu móvel com estado aberto/fechado informado a leitores de tela.
+- Foto da equipe com enquadramento completo, efeito de profundidade no desktop e ampliação por toque ou clique.
+- Visualização ampliada em modal, com fechamento pelo botão, pelo fundo ou pela tecla `Esc`.
 - Fechamento do menu pela tecla `Esc`, por mudança de tamanho da tela ou pela escolha de um link.
 - Link “Pular para o conteúdo” para navegação por teclado.
 - Estados de foco visíveis em links e botões.
