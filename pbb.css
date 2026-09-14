@@ -1918,3 +1918,15 @@ blockquote footer span {
         transform: none;
     }
 }
+
+
+/* Mobile: remove setas decorativas dos links e botões */
+@media (max-width: 600px) {
+    .nav-cta [aria-hidden="true"],
+    .button [aria-hidden="true"],
+    .text-link [aria-hidden="true"],
+    .photo-action strong,
+    .mobile-hide-arrow {
+        display: none !important;
+    }
+}
